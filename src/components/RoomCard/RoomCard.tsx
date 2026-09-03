@@ -2,9 +2,10 @@ import { Room } from '@/types'
 
 interface RoomCardProps {
   room: Room
+  onReserve: () => void
 }
 
-export function RoomCard({ room }: RoomCardProps) {
+export function RoomCard({ room, onReserve }: RoomCardProps) {
   return (
     <div className="bg-white rounded-lg shadow p-6 hover:shadow-lg transition">
       <h3 className="text-xl font-bold text-gray-800 mb-3">{room.name}</h3>
@@ -18,7 +19,10 @@ export function RoomCard({ room }: RoomCardProps) {
           <span>{room.location}</span>
         </p>
       </div>
-      <button className="w-full mt-4 bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition font-medium">
+      <button
+        onClick={onReserve}
+        className="w-full mt-4 bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition font-medium"
+      >
         예약하기
       </button>
     </div>
