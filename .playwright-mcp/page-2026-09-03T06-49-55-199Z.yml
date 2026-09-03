@@ -1,0 +1,17 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "회의실 예약" [level=1] [ref=e6]
+      - paragraph [ref=e7]: 2026년 9월 3일 목
+  - navigation [ref=e8]:
+    - generic [ref=e9]:
+      - link "홈" [ref=e10] [cursor=pointer]:
+        - /url: /
+      - link "대시보드" [active] [ref=e11] [cursor=pointer]:
+        - /url: /dashboard
+      - link "내 예약" [ref=e12] [cursor=pointer]:
+        - /url: /my-reservations
+  - main [ref=e13]:
+    - generic [ref=e17]:
+      - heading "대시보드" [level=2] [ref=e18]
+      - paragraph [ref=e19]: 시간별 회의실 현황을 확인하세요.

@@ -1,0 +1,22 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - heading "회의실 예약" [level=1] [ref=f2e6]
+      - paragraph [ref=f2e7]: 2026년 9월 3일 목
+  - navigation [ref=f2e8]:
+    - generic [ref=f2e9]:
+      - link "홈" [ref=f2e10] [cursor=pointer]:
+        - /url: /
+      - link "대시보드" [ref=f2e11] [cursor=pointer]:
+        - /url: /dashboard
+      - link "내 예약" [ref=f2e12] [cursor=pointer]:
+        - /url: /my-reservations
+  - main [ref=f2e13]:
+    - generic [ref=f2e14]:
+      - generic [ref=f2e15]:
+        - heading "회의실 예약" [level=2] [ref=f2e16]
+        - paragraph [ref=f2e17]: 회의실을 선택하고 예약을 진행하세요.
+      - generic [ref=f2e18]:
+        - generic [ref=f2e19]: 예약 날짜
+        - textbox [ref=f2e20]: 2026-09-03
+      - paragraph [ref=f2e22]: 불러오는 중...
